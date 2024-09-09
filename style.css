@@ -1,0 +1,96 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0px;
+    font-size: 2vw;
+}
+
+
+#logo { 
+    margin: 0px;
+    padding: 25px;
+    font-family: "Fredoka One", sans-serif;
+    width: 25%;
+    border-radius: 90%;
+}
+
+ul { 
+    margin: 0px;
+}
+
+body>header {
+    background-color: orange;
+    color:rgb(255, 255, 255);
+    display: flex;
+    height: 15vh;
+    align-items: center;
+    justify-content: space-around;
+}
+
+#nav-ul { display: flex; }
+
+#nav-ul > li { 
+    padding: 10px; 
+    margin: 16px;}
+
+body>header>nav>ul {
+    list-style: none;
+    text-decoration: none;
+}
+
+body > main article {
+    width: 80%;
+    margin: auto;
+}
+
+form{ 
+    text-align: center;
+}
+
+h2 {
+    text-align: center;
+}
+
+.navbutton {
+    color: white;
+    text-decoration: none;
+    padding: 12px;
+    border: 1px solid white;
+    border-radius: 10% ;}
+
+
+body>footer {
+    background-color: orange;
+    display: flex;
+}
+
+img { 
+    border-radius: 100%;
+}
+
+#footer-ul {
+    display: flex;
+    list-style: none;
+
+}
+
+#footer-ul > div > li {
+    margin-left: 15px;
+}
+
+#footer-ul > div > li > a { 
+    text-decoration: none;
+    color: white;
+}
+
+#main-content {
+    display: flex;
+    justify-content: space-around;
+}
+
+#main-content > div {
+    width: 70%;
+}
+
+#main-content aside { 
+    width: 20%;
+}
